@@ -2,8 +2,7 @@ import React, { Suspense, useEffect, useRef, useState } from "react";
 
 import Loading from "./commons/Loading.tsx";
 
-// import Projects from "./commons/Project";
-// import "./App.css";
+
 
 const Sidebar = React.lazy(() => import("./commons/Sidebar.tsx"));
 const Experience = React.lazy(() => import("./commons/Experience.tsx"));
@@ -11,7 +10,6 @@ const Projects = React.lazy(() => import("./commons/Project.tsx"));
 const About = React.lazy(() => import("./commons/About.tsx"));
 const Footer = React.lazy(() => import("./commons/Footer.tsx"));
 function App() {
-  const [count, setCount] = useState(0);
   const [data, setData] = useState<any>(null);
 
   const project = useRef(null);

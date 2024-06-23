@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Icon } from "@iconify/react";
 
 interface ExperienceProps {
   experiences: [] | null;
