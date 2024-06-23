@@ -1,6 +1,5 @@
 import React, { Suspense, useEffect, useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import Loading from "./commons/Loading.tsx";
 
 // import Projects from "./commons/Project";
@@ -48,6 +47,7 @@ function App() {
   }, []);
   return (
     <>
+    
       <Suspense fallback={<Loading />}>
         <div className="lg:flex  lg:flex-row mx-auto min-h-screen max-w-screen-xl px-0  font-sans md:px-12  lg:px-24 lg:!py-0">
           <div className="">
