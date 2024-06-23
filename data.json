@@ -13,6 +13,20 @@
             "After graduated i started new learning about framework started from vue js and Django(python) and build some web like movie list for small project what i learning. have been 2 years i work become freelance build some small project and work in PT Ericsson Indonesia become Frontend Developer using React Js"
         ],
         "experiences": [
+
+             {
+                "from": "Agustus 2023",
+                "company": "PT Majapahit Teknologi",
+                "to": "Present",
+                "division": "Software Engineer",
+                "position": "Junior Software Engineer",
+                "tools" : [
+                    "Angular",
+                    "Microsoft Sql",
+                    "Laravel"
+                ],
+                "description":"Developing Project Bomba and Honda using laravel and angular js"
+            },
             {
                 "from": "Nov 2021",
                 "company": "PT Ericsson Indonesia",
