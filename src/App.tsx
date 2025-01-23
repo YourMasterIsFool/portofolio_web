@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useRef, useState } from "react";
+import React, { Suspense, useRef, useState } from "react";
 
 import Loading from "./commons/Loading.tsx";
 import { data } from "./data.ts";
@@ -50,7 +50,9 @@ function App() {
               about={about}
               experience={experience}
               project={project}
-              onScrollToSection={onScrollToSection}
+              onScrollToSection={(e, id) => {
+                onScrollToSection(e, id.toString());
+              }}
               profile={data?.profile}
             />
           </div>

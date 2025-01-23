@@ -1,8 +1,7 @@
-
 import { Icon } from "@iconify/react";
 
 interface ProjectProps {
-  projects: [] | null;
+  projects: any | null;
 }
 const Project = (props: ProjectProps) => {
   return (
@@ -10,7 +9,7 @@ const Project = (props: ProjectProps) => {
       <h1 className="lg:hidden mx-6 fond-bold block text-white text-2xl border-b-4 border-white pb-2  mb-6 w-2/5 lg:w-1/3">
         Projects
       </h1>
-      {props.projects?.map((item) => ProjectComponent(item))}
+      {props.projects?.map((item: any) => ProjectComponent(item))}
     </div>
   );
 };

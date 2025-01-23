@@ -1,5 +1,5 @@
 interface ExperienceProps {
-  experiences: [] | null;
+  experiences: any | null;
 }
 const Experience = (props: ExperienceProps) => {
   return (
@@ -7,7 +7,7 @@ const Experience = (props: ExperienceProps) => {
       <h1 className="lg:hidden mx-6 fond-bold block text-white text-2xl border-b-4 border-white pb-2  mb-6 w-2/5 w-1/3">
         Experience
       </h1>
-      {props.experiences?.map((item) => ExperienceComponent(item))}
+      {props.experiences?.map((item: any) => ExperienceComponent(item))}
     </div>
   );
 };
