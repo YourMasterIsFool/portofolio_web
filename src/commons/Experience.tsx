@@ -1,4 +1,3 @@
-
 interface ExperienceProps {
   experiences: [] | null;
 }
@@ -31,7 +30,9 @@ const ExperienceComponent = (data: any) => {
           <p className="text-gray-300 fond-bold text-sm text-base mt-2">
             <span className="text-gray-500"></span> {data.company}
           </p>
-          <p className="mt-4 text-xs font-light">{data.description}</p>
+          <p className="mt-4 text-xs font-light">
+            <ul className="flex flex-col space-y-1">{data.description}</ul>
+          </p>
           <ul className="flex mt-4 flex-wrap flex-row">
             {data.tools?.map((item: any) => (
               <li className="mr-3 mb-2 tracking-wide font-light text-xs rounded-full px-4 py-2 text-xs bg-blue-500 bg-opacity-10 text-blue-500">
