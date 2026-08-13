@@ -46,7 +46,7 @@
   }
 
   .skill-chip {
-    @apply rounded-full border border-blue-400/15 bg-blue-400/[0.08] px-3 py-1.5 text-[11px] font-medium tracking-wide text-blue-200;
+    @apply rounded-full border border-blue-400/20 bg-blue-400/[0.08] px-3 py-1.5 text-[11px] font-medium tracking-wide text-blue-200;
   }
 
   body {
