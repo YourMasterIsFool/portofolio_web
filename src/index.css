@@ -65,7 +65,8 @@
   }
 
   .project-card {
-    @apply flex min-h-64 flex-col rounded-xl border border-white/10 bg-white/[0.025] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-blue-400/40 hover:bg-blue-500/[0.08] hover:shadow-2xl hover:shadow-blue-950/20 sm:p-6;
+    @apply flex flex-col rounded-xl border border-white/10 bg-white/[0.025] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-blue-400/40 hover:bg-blue-500/[0.08] hover:shadow-2xl hover:shadow-blue-950/20 sm:p-6;
+    min-height: 16rem;
   }
 
   .project-icon {
