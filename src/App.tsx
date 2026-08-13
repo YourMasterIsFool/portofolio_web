@@ -63,6 +63,7 @@ function App() {
                 coreSkills={data?.coreSkills}
                 education={data?.education}
                 certifications={data?.certifications}
+                academicProject={data?.academicProject}
               />
             </div>
             <div ref={experience}>

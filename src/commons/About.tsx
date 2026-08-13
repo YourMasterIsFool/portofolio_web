@@ -4,12 +4,14 @@ const About = ({
   coreSkills = [],
   education,
   certifications = [],
+  academicProject,
 }: {
   about: any | null;
   highlights: any[];
   coreSkills: string[];
   education?: string;
   certifications: string[];
+  academicProject?: string;
 }) => {
   return (
     <section className="default-padding px-6 lg:px-0">
@@ -47,6 +49,10 @@ const About = ({
         <div>
           <h3 className="eyebrow">Education & certifications</h3>
           <p className="mt-4 text-sm leading-6 text-gray-400">{education}</p>
+          <p className="mt-4 text-sm leading-6 text-gray-500">
+            <span className="font-semibold text-gray-300">Final project: </span>
+            {academicProject}
+          </p>
           <div className="mt-3 space-y-2 text-sm text-gray-500">
             {certifications.map((certification) => (
               <p key={certification} className="flex items-start gap-2">

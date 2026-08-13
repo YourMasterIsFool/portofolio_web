@@ -31,9 +31,12 @@ const ProjectComponent = (data: any) => {
       className="project-card group"
     >
       <div className="flex items-start justify-between gap-4">
-        <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-400">
-          {data.category || "Project"}
-        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-blue-400">
+            {data.category || "Project"}
+          </span>
+          {data.status && <span className="status-chip">{data.status}</span>}
+        </div>
         <Icon className="project-icon" icon="iconoir:arrow-tr" />
       </div>
       <h3 className="mt-5 text-lg font-bold tracking-tight text-gray-200 transition-colors group-hover:text-blue-300">
