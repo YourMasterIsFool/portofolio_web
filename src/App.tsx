@@ -16,7 +16,6 @@ function App() {
 
   const onScrollToSection = (elementRef: any, selected: string) => {
     setSelectedNav(selected);
-    console.log(elementRef);
     window.scrollTo({
       top: elementRef?.current?.offsetTop,
       behavior: "smooth",
@@ -43,7 +42,7 @@ function App() {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <div className="lg:flex  lg:flex-row mx-auto min-h-screen max-w-screen-xl px-0  font-sans md:px-12  lg:px-24 lg:!py-0">
+        <div className="mx-auto flex min-h-screen max-w-screen-xl flex-col px-6 font-sans md:px-12 lg:flex-row lg:px-20">
           <div className="">
             <Sidebar
               selectedNav={selectedNav}
@@ -56,9 +55,15 @@ function App() {
               profile={data?.profile}
             />
           </div>
-          <div className="lg:w-2/3 ">
+          <main className="min-w-0 lg:w-3/5">
             <div ref={about}>
-              <About about={data?.about} />
+              <About
+                about={data?.about}
+                highlights={data?.highlights}
+                coreSkills={data?.coreSkills}
+                education={data?.education}
+                certifications={data?.certifications}
+              />
             </div>
             <div ref={experience}>
               <Experience experiences={data?.experiences} />
@@ -70,7 +75,7 @@ function App() {
             <div className="lg:mb-10">
               <Footer />
             </div>
-          </div>
+          </main>
         </div>
       </Suspense>
     </>

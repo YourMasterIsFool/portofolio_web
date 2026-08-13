@@ -6,80 +6,78 @@
       "instagram": "https://instagram.com/verzenbag"
     },
     "name": "Verrandy Bagus Prasetyo",
-    "jobTitle": "Junior Software Engineer",
-    "description": "Just Junior Software Engineer, like to learning about new technology"
+    "jobTitle": "Software Engineer",
+    "description": "Fullstack, Rust, backend systems, and data platforms"
   },
   "about": [
-    "Back to 2012, when i was young i like playing a game online and from that i interested about computer. when I graduated from junior high school, I chose a high school with a major in Computer Engineering and networking from that i learn about progamming language about c++ and php. i really like about progamming language until when i  graduated from Informatics Engineering.",
-    "After graduated i started new learning about framework started from vue js and Django(python) and build some web like movie list for small project what i learning. have been 2 years i work become freelance build some small project and work in PT Ericsson Indonesia become Frontend Developer using React Js"
+    "Software Engineer with nearly five years of experience building fullstack, backend, and data-intensive systems.",
+    "Experienced with Rust, TypeScript, NestJS, Spring Boot, React, Next.js, PostgreSQL, Redis Streams, Docker, and Kubernetes."
   ],
   "experiences": [
     {
-      "from": "Agustus 2023",
-      "company": "PT Majapahit Teknologi",
-      "to": "November 2024",
-      "division": "Fullstack Developer",
-      "position": "Middle Fullstack Developer",
+      "from": "May 2025",
+      "company": "PT Jobseeker Company",
+      "to": "Present",
+      "division": "Fullstack Software Engineer",
+      "position": "Rust, Backend & Data Platform Focus",
       "tools": [
-        "Angular",
-        "Microsoft Sql",
-        "Laravel",
-        "Vue js",
-        "Laravel(Inertia)",
-        "React JS"
+        "Rust",
+        "Axum",
+        "Tokio",
+        "SQLx",
+        "NestJS",
+        "Spring Boot",
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Redis Streams"
       ],
       "description": [
-        "Develop Bomba Project Audit using Laravel, maintain and adding new module Honda Dealer Project using Angular Js, create new module Business Trip and Reimburse using Laravel(Inertia) in Mitshubisi Project, create and maintain rest api and collaboratio with mobile developer for ShesInfo Projec using Laravel Passport, maintain and creating new module Stock report in BismaService app using laravel"
+        "Technical owner for Taekwang V4, coordinating delivery across engineering, QA, DevOps, and business stakeholders.",
+        "Built Rust import/export workers and multi-tenant pipelines that process 1M+ records with streaming, batching, and bounded concurrency.",
+        "Reduced processing time and server resource consumption by up to 80%.",
+        "Developed product capabilities across Organization, ATS, HRIS, Shift Management, and Email Worker domains."
+      ]
+    },
+    {
+      "from": "Aug 2023",
+      "company": "PT Majapahit Teknologi",
+      "to": "Nov 2024",
+      "division": "Fullstack Engineer",
+      "position": "Enterprise Applications",
+      "tools": ["Laravel", "React", "Angular", "SQL", "REST APIs"],
+      "description": [
+        "Developed and maintained production applications for enterprise projects using Laravel, React, Angular, and relational databases.",
+        "Designed REST APIs and backend modules for Bomba Group and PKN, and optimized SQL queries and database access patterns.",
+        "Conducted code reviews and mentored junior engineers in backend development, debugging, SQL optimization, and data modeling."
       ]
     },
     {
       "from": "Nov 2021",
       "company": "PT Ericsson Indonesia",
       "to": "Jun 2023",
-      "division": "Fullstack Developer",
-      "position": "Junior Software Engineer",
-      "tools": ["React", "Postgresql", "Express Js", "React MUI"],
+      "division": "Frontend Developer",
+      "position": "Contract",
+      "tools": ["React", "REST APIs", "JavaScript"],
       "description": [
-        "Developing internal project ericsson for bluecard and DMP Global network using React JS for frontend and Express JS for backend"
-      ]
-    },
-
-    {
-      "from": "Feb 2021",
-      "to": "PRESENT",
-      "division": "Software Web Developer",
-      "position": "Freelance",
-      "tools": ["Flutter", "Laravel", "Flutter", "Mysql", "Next Js", "Nest JS"],
-      "description": [
-        "Create and maintain project fixy Pay using next and nests js, Create project simple money management using Laravel and vueJs"
-      ]
-    },
-
-    {
-      "from": "Feb 2020",
-      "company": "PT Industri Kereta Api(Persero)",
-      "to": "Jul 2020",
-      "division": "Project Division",
-      "position": "Web Developer",
-      "tools": ["Laravel", "Mysql", "Code Igniter"],
-      "description": [
-        "Developing internal project ericsson for bluecard and DMP Global network using React JS for frontend and Express JS for backend"
-      ]
-    },
-
-    {
-      "from": "Jun 2019",
-      "company": "PT Mitratani Dua Tujuh",
-      "to": "Aug 2019",
-      "division": "IT Division",
-      "position": "IT Support(Intership)",
-
-      "description": [
-        "Helping IT division for troubleshooting network in internal PT Mitratani Dua Tujuh"
+        "Developed enterprise React applications with reusable component architecture, maintainability, usability, and performance in mind.",
+        "Delivered frontend features end-to-end, integrated backend APIs, and translated business and client requirements into production functionality."
       ]
     }
   ],
   "projects": [
+    {
+      "link": "https://github.com/YourMasterIsFool",
+      "title": "Pixel Game",
+      "description": "Game top-up platform built with Nuxt 3. Implemented responsive reusable UI from Figma, backend API integration, WebSocket real-time features, payment workflows, and product flows.",
+      "tools": ["Nuxt 3", "WebSocket", "REST APIs", "Figma"]
+    },
+    {
+      "link": "https://github.com/YourMasterIsFool",
+      "title": "FixyGym",
+      "description": "Gym membership and payment platform supporting installment plans, subscriptions, scheduling, transaction tracking, and membership lifecycle management.",
+      "tools": ["Backend Architecture", "REST APIs", "Payments"]
+    },
     {
       "link": "https://github.com/YourMasterIsFool/Nabungku",
       "title": "Nabungku",
@@ -95,7 +93,7 @@
     },
 
     {
-      "link": "https://github.com/YourMasterIsFool/flutter_chat",
+      "link": "https://github.com/YourMasterIsFool/simple_notes_flutter",
       "title": "Simple Notes App",
       "description": "Developing Simple Notes app using flutter and sqlite",
       "tools": ["Flutter", "Sqlite"]
